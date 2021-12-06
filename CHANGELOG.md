@@ -9,6 +9,7 @@
    * FIXED: Add string for Use:kPedestrianCrossing to fix null output in to_string(Use). [#3416](https://github.com/valhalla/valhalla/pull/3416)
    * FIXED: Remove simple restrictions check for pedestrian cost calculation. [#3423](https://github.com/valhalla/valhalla/pull/3423)
    * FIXED: Parse "highway=busway" OSM tag: https://wiki.openstreetmap.org/wiki/Tag:highway%3Dbusway [#3413](https://github.com/valhalla/valhalla/pull/3413)
+   * FIXED: Minor fix for headers  [#3436](https://github.com/valhalla/valhalla/pull/3436)
 
 * **Enhancement**
    * CHANGED: Pronunciation for names and destinations [#3132](https://github.com/valhalla/valhalla/pull/3132)
@@ -24,7 +25,6 @@
    * ADDED: Import of Bike Share Stations information in BSS Connection edges [#3411](https://github.com/valhalla/valhalla/pull/3411)
    * ADDED: Add heading to PathEdge to be able to return it on /locate [#3399](https://github.com/valhalla/valhalla/pull/3399)
    * ADDED: Add `prioritize_bidirectional` option for fast work and correct ETA calculation for `depart_at` date_time type. Smoothly stop using live-traffic [#3398](https://github.com/valhalla/valhalla/pull/3398)
-   * CHANGED: Minor fix for headers  [#3436](https://github.com/valhalla/valhalla/pull/3436)
 
 ## Release Date: 2021-10-07 Valhalla 3.1.4
 * **Removed**
